@@ -1,5 +1,5 @@
 #Site Settings
-baseURL = ""
+baseURL = "http://family.basestation.space"
 languageCode = "en-us"
 title = "Matthiesen Family Album"
 
