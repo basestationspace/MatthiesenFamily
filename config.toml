@@ -1,0 +1,29 @@
+#Site Settings
+baseURL = ""
+languageCode = "en-us"
+title = "Matthiesen Family Album"
+theme = "Story"
+paginate = 5
+buildFuture = true
+canonifyURLs =  true
+
+[[menu.main]]
+  name = "Gallary"
+  title = "Gallary"
+  url = "/Gallary/"
+
+[[menu.main]]
+  name = "Archives"
+  title = "Archives"
+  url = "/archives/"
+
+[params]
+  author = "Adam Matthiesen"
+  classes = []
+
+[outputs]
+  home = ["HTML", "JSON", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML", "RSS"]
