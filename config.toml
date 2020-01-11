@@ -2,7 +2,7 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Matthiesen Family Album"
-theme = "Story"
+
 paginate = 5
 buildFuture = true
 canonifyURLs =  true
