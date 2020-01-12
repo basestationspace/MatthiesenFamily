@@ -1,14 +1,13 @@
 ---
 title: '{{ replace .TranslationBaseName "-" " " | title }}'
+image: "/gallary.imgs/{{ .Name }}/image-1.jpg"
+thumbnail: "/gallary.imgs/{{ .Name }}/thumbnail.jpg"
 date: "{{ .Date }}"
-url: "/{{ .Dir }}{{ .Name }}/"
-event: ""
-location: ""
-site: ""
-video: ""
-slides: "/slides/{{ .Name }}/"
-thumbnail: "/slides/{{ .Name }}/thumbnail.jpg"
-image: "/slides/{{ .Name }}/cover.jpg"
-description: ""
-draft: "True"
 ---
+# .Name
+
+<!--More-->
+
+![.NAME : Photo 1](/gallary.imgs/LOCATION)
+[Download Here](/gallary.imgs/LOCATION)
+***
